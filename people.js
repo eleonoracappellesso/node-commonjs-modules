@@ -18,4 +18,4 @@ function userInfos() {
     return { fullName, hobbies };
 }
 
-console.log(userInfos);
+console.log(userInfos());
