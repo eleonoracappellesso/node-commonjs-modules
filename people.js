@@ -11,3 +11,11 @@ const userFullName = require("./names");
 const userHobbies = require("./hobbies");
 //console.log(userHobbies('pallavolo', 'cinema', 'musica'));
 
+function userInfos() {
+    const fullName = userFullName('Eleonora', 'Cappellesso');
+    const hobbies = userHobbies('volleyball', 'movies', 'travel');
+
+    return { fullName, hobbies };
+}
+
+console.log(userInfos);
